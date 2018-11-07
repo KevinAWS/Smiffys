@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=utf-8
+Content-Length: 100
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <GetCategoryListResponse xmlns="http://smiffys.com/">
+      <GetCategoryListResult>
+	  Category> <ID>747</ID> <Name>Accessories</Name> <Image>Accessories.jpg</Image> <Main>Accessories</Main> <Sub1/> <Sub2/> <Sub3 xml:space="preserve"> </Sub3> <Sub4 xml:space="preserve"> </Sub4> <Use>false</Use> <Level>1</Level> <Code>AC</Code> <Parent>0</Parent> <HasChildren>true</HasChildren> <NoOfItems>66</NoOfItems> <LongDesc>Accessories</LongDesc> </Category>
+	  </GetCategoryListResult>
+    </GetCategoryListResponse>
+  </soap:Body>
+</soap:Envelope>

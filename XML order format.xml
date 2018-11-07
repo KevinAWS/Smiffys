@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<AVXML>
+  <SIGNONMSGSRQ>
+    <SONRQ>
+      <DTCLIENT>09-02-2011T16:50:38</DTCLIENT>
+      <USERID>WEBSRV</USERID>
+      <USERPASS>2173780105</USERPASS>
+      <ADMIN>S13</ADMIN>
+      <APPID>ACCOUNTVIEW</APPID>
+      <APPVER>0700A</APPVER>
+    </SONRQ>
+  </SIGNONMSGSRQ>
+  <EBUSMSGSRQ>
+    <EBUSTRNRQ>
+      <TRNUID>Order1.xml</TRNUID>
+      <BUSOBJ>So1</BUSOBJ>
+      <ROWADDRQ>
+        <RPL_DEL>EF_TESTEP</RPL_DEL>
+        <COMMENT1>Order 1</COMMENT1>
+        <COMMENT2></COMMENT2>
+        <INV_CP>customer@domain.com</INV_CP>
+        <DEL_CP>07901888408</DEL_CP>
+        <SEL_CODE>EFULL</SEL_CODE>
+        <ORD_DATE>2013-01-09</ORD_DATE>
+        <INV_DATE>2013-01-09</INV_DATE>
+        <DEL_DATE>2013-01-09</DEL_DATE>
+        <DEL_ADDR>Mrs Customer, 1 High Street, Anytown, Anyplace, Anywhere, AA1 1AA</DEL_ADDR>
+        <CNT_CODE>GB</CNT_CODE>
+        <CAMPAIGN>STD</CAMPAIGN>
+        <SO_LINE>
+          <ORG_OF_ORD>9</ORG_OF_ORD>
+          <ART_CODE>25402</ART_CODE>
+          <ORD_QTY>1</ORD_QTY>
+        </SO_LINE>
+        <SO_LINE>
+          <ORG_OF_ORD>9</ORG_OF_ORD>
+          <ART_CODE>34872</ART_CODE>
+          <ORD_QTY>1</ORD_QTY>
+        </SO_LINE>
+        <SO_LINE>
+          <ORG_OF_ORD>9</ORG_OF_ORD>
+          <ART_CODE>20136</ART_CODE>
+          <ORD_QTY>1</ORD_QTY>
+        </SO_LINE>
+        <SO_LINE>
+          <ORG_OF_ORD>9</ORG_OF_ORD>
+          <ART_CODE>32401L</ART_CODE>
+          <ORD_QTY>1</ORD_QTY>
+        </SO_LINE>
+        <SO_LINE>
+          <ORG_OF_ORD>9</ORG_OF_ORD>
+          <ART_CODE>ZZILK_ND5</ART_CODE>
+          <ORD_QTY>1</ORD_QTY>
+        </SO_LINE>
+      </ROWADDRQ>
+    </EBUSTRNRQ>
+  </EBUSMSGSRQ>
+</AVXML>

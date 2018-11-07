@@ -1,0 +1,18 @@
+CREATE TABLE jps_smiffys_category 
+ (
+ ID nvarchar(max),
+ Name nvarchar(max),
+ Image nvarchar(max),
+ Main nvarchar(max),
+ Sub1 nvarchar(max),
+ Sub2 nvarchar(max),
+ Sub3 nvarchar(max),
+ Sub4 nvarchar(max),
+ InUse nvarchar(max),
+ Level nvarchar(max),
+ Code nvarchar(max),
+ Parent nvarchar(max),
+ HasChildren nvarchar(max),
+ NoOfItems nvarchar(max),
+ LongDesc nvarchar(max)
+ )
